@@ -37,7 +37,6 @@ defmodule BroadwayDashboard.MixProject do
       {:jason, "~> 1.0", only: [:dev, :test, :docs]},
       {:ex_doc, "~> 0.24", only: [:docs], runtime: false},
       {:stream_data, "~> 1.0", only: [:dev, :test]},
-      {:floki, "~> 0.34", only: :test},
       {:lazy_html, ">= 0.1.0", only: :test}
     ]
   end
