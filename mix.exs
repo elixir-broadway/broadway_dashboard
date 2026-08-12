@@ -30,14 +30,15 @@ defmodule BroadwayDashboard.MixProject do
   defp deps do
     [
       {:broadway, "~> 1.0"},
-      {:phoenix_live_dashboard, "~> 0.8.0"},
+      {:phoenix_live_dashboard, "~> 0.8"},
       {:phoenix_live_reload, "~> 1.2", only: :dev},
       {:phoenix_view, "~> 2.0 or ~> 1.0", only: [:test]},
       {:plug_cowboy, "~> 2.0", only: :dev},
       {:jason, "~> 1.0", only: [:dev, :test, :docs]},
       {:ex_doc, "~> 0.24", only: [:docs], runtime: false},
       {:stream_data, "~> 1.0", only: [:dev, :test]},
-      {:floki, "~> 0.34", only: :test}
+      {:floki, "~> 0.34", only: :test},
+      {:lazy_html, ">= 0.1.0", only: :test}
     ]
   end
 
