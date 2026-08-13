@@ -1,7 +1,7 @@
 defmodule BroadwayDashboard.MixProject do
   use Mix.Project
 
-  @version "0.4.1"
+  @version "0.5.0"
   @description "A Phoenix LiveDashboard page for inspecting your Broadway pipelines"
 
   def project do
@@ -52,7 +52,7 @@ defmodule BroadwayDashboard.MixProject do
 
   defp package do
     %{
-      maintainers: ["Philip Sampaio"],
+      maintainers: ["José Valim"],
       licenses: ["Apache-2.0"],
       links: %{
         "GitHub" => "https://github.com/dashbitco/broadway_dashboard",
